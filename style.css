@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+    line-height: 1.6;
+}
+
+/* Layout */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Hero */
+.hero {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #cccccc;
+}
+
+/* Sections */
+.section {
+    padding: 80px 0;
+}
+
+.section.gray {
+    background-color: #f3f3f3;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.section p {
+    font-size: 1.05rem;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* List */
+.list {
+    list-style: none;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.list li {
+    font-size: 1.05rem;
+    padding: 12px 0;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+
+.list li:last-child {
+    border-bottom: none;
+}
+
+/* Project */
+.project-box {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.project-box h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 6px;
+    background-color: #111111;
+    color: #ffffff;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.btn.secondary {
+    background-color: #ffffff;
+    color: #111111;
+    border: 1px solid #111111;
+}
+
+/* Footer */
+.footer {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 0.95rem;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 1.7rem;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+}
